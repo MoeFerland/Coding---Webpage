@@ -1,12 +1,12 @@
-var img;
+let img;
 function setup() {
   // put setup code here
-  createCanvas(5000,5000);
+  createCanvas(windowWidth,windowHeight);
   img= loadImage('80spattern.jpg');
 
 }
 
 function draw() {
-  image(img,0,0);
+  image(img,0,0,windowWidth,windowHeight);
 
 }
