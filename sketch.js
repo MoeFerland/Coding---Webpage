@@ -1,11 +1,8 @@
-let myFont;
-
-function preload(){
-  myFont = loadFont('43886.otf');
-}
-
 let img;
-
+let flegreiReg;
+  function preload() {
+    flegreiReg = loadFont('43886.otf');
+  }
 
 function setup() {
   // put setup code here
@@ -19,8 +16,8 @@ function setup() {
 function draw() {
   image(img,0,0,1000,1000);
 
-    textFont('43886.otf');
-    textSize(60);
+    textFont('flegreiReg');
+    textSize(600);
     fill(205,92,92);
     text('HELLO.',100,100);
 
