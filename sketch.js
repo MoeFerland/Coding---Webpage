@@ -16,9 +16,10 @@ function setup() {
 function draw() {
   image(img,0,0,1000,1000);
 
-    textFont('flegreiReg');
-    textSize(600);
+    textFont(flegreiReg);
     fill(205,92,92);
-    text('HELLO.',100,100);
+    textSize(20);
+    text('HELLO.',100,500);
+
 
 }
