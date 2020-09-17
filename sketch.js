@@ -4,7 +4,7 @@ let flegreiReg;
     flegreiReg = loadFont('43886.otf');
   }
 //ball movement
-let xpos = 0;
+let xpos = 60;
 let ypos = 0;
 let ballspeedY = 5
 
