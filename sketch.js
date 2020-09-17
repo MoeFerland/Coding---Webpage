@@ -22,7 +22,7 @@ function draw() {
     text('HELL   .',80,300,);
 
 noStroke();
-circle(520,250,100);
+circle(520,250,120);
 fill(205,92,92);
 
 }
