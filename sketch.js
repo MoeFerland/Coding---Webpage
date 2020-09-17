@@ -19,7 +19,9 @@ function draw() {
     textFont(flegreiReg);
     fill(205,92,92);
     textSize(150);
-    text('HELLO.',80,300,);
+    text('HELL .',80,300,);
 
+circle(600,200,100);
+fill(205,92,92);
 
 }
