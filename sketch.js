@@ -18,8 +18,8 @@ function draw() {
 
     textFont(flegreiReg);
     fill(205,92,92);
-    textSize(20);
-    text('HELLO.',100,500);
+    textSize(60);
+    text('HELLO.',100,500,1000,1000);
 
 
 }
