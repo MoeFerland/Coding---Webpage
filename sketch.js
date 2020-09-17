@@ -4,9 +4,10 @@ let flegreiReg;
     flegreiReg = loadFont('43886.otf');
   }
 //ball movement
-let xpos = 60;
+let xpos = 120;
 let ypos = 0;
-let ballspeedY = 5
+let ballspeedY = 5;
+let ballspeedX = 6;
 
 function setup() {
   // put setup code here
@@ -33,6 +34,7 @@ circle(xpos,ypos,120);
 fill(205,92,92);
 
    ypos = ypos + ballspeedY;
+   xpos = xpos + ballspeedX;
 
    if (ypos > height){
      ballspeedY = - ballspeedY;
@@ -42,5 +44,12 @@ fill(205,92,92);
      ballspeedY = - ballspeedY;
    }
 
+   if (xpos > width){
+     ballspeedX = - ballspeedX;
+   }
+
+   if (xpos < 0){
+     ballspeedX = - ballspeedX;
+   }
 
 }
