@@ -36,20 +36,21 @@ fill(205,92,92);
    ypos = ypos + ballspeedY;
    xpos = xpos + ballspeedX;
 
-   if (ypos > height){
+   if (ypos > height - 60){
      ballspeedY = - ballspeedY;
    }
 
-   if (ypos < 0){
+   if (ypos < 60){
      ballspeedY = - ballspeedY;
    }
 
-   if (xpos > width){
+   if (xpos > width - 60){
      ballspeedX = - ballspeedX;
    }
 
-   if (xpos < 0){
+   if (xpos < 60){
      ballspeedX = - ballspeedX;
    }
 
+if mouseIsPressed()
 }
