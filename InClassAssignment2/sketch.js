@@ -6,8 +6,8 @@ let flegreiReg;
 //ball movement
 let xpos = 120;
 let ypos = 0;
-let ballspeedY = 3;
-let ballspeedX = 5;
+let ballspeedY = 1;
+let ballspeedX = 3;
 
 function setup() {
   // put setup code here
@@ -52,7 +52,7 @@ fill(205,92,92);
      ballspeedX = - ballspeedX;
    }
 
-if (mouseIsPressed & dist(mouseX,mouseY,xpos,ypos)< 60){
+if (mouseIsPressed & dist(mouseX,mouseY,xpos,ypos) < 60 ){
   xpos = random(0,width);
   ypos = random(0,height);
 }
