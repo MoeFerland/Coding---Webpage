@@ -52,5 +52,8 @@ fill(205,92,92);
      ballspeedX = - ballspeedX;
    }
 
-if mouseIsPressed()
+if (mouseIsPressed & dist(mouseX,mouseY,xpos,ypos)< 60){
+  xpos = random(0,width);
+  ypos = random(0,height);
+}
 }
