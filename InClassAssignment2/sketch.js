@@ -6,8 +6,8 @@ let flegreiReg;
 //ball movement
 let xpos = 120;
 let ypos = 0;
-let ballspeedY = 5;
-let ballspeedX = 6;
+let ballspeedY = 3;
+let ballspeedX = 5;
 
 function setup() {
   // put setup code here
