@@ -5,7 +5,7 @@ let flegreiReg;
   }
 //ball movement
 let xpos = 120;
-let ypos = 0;
+let ypos = 10;
 let ballspeedY = 1;
 let ballspeedX = 3;
 
