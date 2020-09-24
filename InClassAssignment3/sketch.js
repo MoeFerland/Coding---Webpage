@@ -12,7 +12,7 @@ let flegreiReg;
 
 function draw() {
   //Put draw code here
-for (let xpos = 0; xpos < random(0,width; xpos = xpos + 10){
+for (let xpos = 0; xpos < random(0,width, xpos = xpos + 10){
   fill(0,0,255);
   rect(xpos, xpos, 10);}
 }
