@@ -2,7 +2,7 @@
 function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
-background(100,100,70);
+
 
 let flegreiReg;
   function preload() {
@@ -12,7 +12,7 @@ let flegreiReg;
 
 function draw() {
   //Put draw code here
-
+background(100,100,70);
 
 
 }
