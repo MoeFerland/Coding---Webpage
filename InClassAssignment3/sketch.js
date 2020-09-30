@@ -1,14 +1,13 @@
-
-function setup() {
-  // put setup code here
-createCanvas(windowWidth,windowHeight);
-background(0,0,255);
-
 //font for MOE
 let narlyFONT;
   function preload() {
     narlyFONT = loadFont('NarlyOT_Outline_coding.otf');
   }
+
+function setup() {
+  // put setup code here
+createCanvas(windowWidth,windowHeight);
+background(0,0,255);
 
 //random popsicle like shapesss
 for (let lineNumber = 0; lineNumber < 4; lineNumber = lineNumber + 1){
@@ -57,6 +56,7 @@ for (let cirNumber = 0; cirNumber < 1; cirNumber = cirNumber + 1){
   circle(cirX,cirY,diam);
 }
 }
+
 function draw() {
 
   textFont(narlyFONT);
