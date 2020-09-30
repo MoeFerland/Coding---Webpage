@@ -55,12 +55,27 @@ for (let cirNumber = 0; cirNumber < 1; cirNumber = cirNumber + 1){
   fill(rCol,gCol,bCol);
   circle(cirX,cirY,diam);
 }
+
+//random triangle :3
+for (let triNumber = 0; triNumber < 1; triNumber = triNumber +1){
+
+  let rCol = random(0,255);
+  let gCol = random(0,255);
+  let bCol = random(0,255);
+
+  let triX1 = random(0,width);
+  let triY1 = random(0,height);
+  let triX2 = random(0,width);
+  let triY2 = random(0,height);
+  let triX3 = random(0,width);
+  let triY3 = random(0,height);
+}
 }
 
 function draw() {
 
   textFont(narlyFONT);
   fill(255,36,0);
-  textSize(150);
-  text('MOE',200,200);
+  textSize(200);
+  text('MOE',100,200);
 }
