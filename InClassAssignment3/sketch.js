@@ -8,6 +8,7 @@ background(0,0,255);
 let narlyFONT;
   function preload() {
     narlyFONT = loadFont('NarlyOT_Outline_coding.otf');
+  }
 
 textFont(narlyFONT);
 fill(255,36,0);
