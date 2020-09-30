@@ -10,12 +10,6 @@ let narlyFONT;
     narlyFONT = loadFont('NarlyOT_Outline_coding.otf');
   }
 
-textFont(narlyFONT);
-fill(255,36,0);
-textSize(150);
-text('MOE',200,200);
-
-
 //random popsicle like shapesss
 for (let lineNumber = 0; lineNumber < 4; lineNumber = lineNumber + 1){
      let x1 = random(0,width);
@@ -62,4 +56,11 @@ for (let cirNumber = 0; cirNumber < 1; cirNumber = cirNumber + 1){
   fill(rCol,gCol,bCol);
   circle(cirX,cirY,diam);
 }
+}
+function draw() {
+
+  textFont(narlyFONT);
+  fill(255,36,0);
+  textSize(150);
+  text('MOE',200,200);
 }
