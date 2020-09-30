@@ -58,7 +58,7 @@ for (let cirNumber = 0; cirNumber < 1; cirNumber = cirNumber + 1){
 
 //triangle :3
   fill(255,36,0);
-  triangle(600,230,600,150,660,190);
+  triangle(550,230,550,150,610,190);
 }
 
 function draw() {
