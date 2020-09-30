@@ -56,22 +56,9 @@ for (let cirNumber = 0; cirNumber < 1; cirNumber = cirNumber + 1){
   circle(cirX,cirY,diam);
 }
 
-//random triangle :3
-for (let triNumber = 0; triNumber < 1; triNumber = triNumber +1){
-
-  let rCol = random(0,255);
-  let gCol = random(0,255);
-  let bCol = random(0,255);
-
-  let triX1 = random(0,width);
-  let triY1 = random(0,height);
-  let triX2 = random(0,width);
-  let triY2 = random(0,height);
-  let triX3 = random(0,width);
-  let triY3 = random(0,height);
-
-  triangle(triX1,triY1,triX2,triY2,triX3,triY3);
-}
+//triangle :3
+  fill(255,36,0);
+  triangle(600,250,600,150,660,200);
 }
 
 function draw() {
