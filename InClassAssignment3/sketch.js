@@ -69,6 +69,8 @@ for (let triNumber = 0; triNumber < 1; triNumber = triNumber +1){
   let triY2 = random(0,height);
   let triX3 = random(0,width);
   let triY3 = random(0,height);
+
+  triangle(triX1,triY1,triX2,triY2,triX3,triY3);
 }
 }
 
