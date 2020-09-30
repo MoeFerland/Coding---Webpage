@@ -76,6 +76,6 @@ function draw() {
 
   textFont(narlyFONT);
   fill(255,36,0);
-  textSize(200);
-  text('MOE',100,200);
+  textSize(170);
+  text('MOE',100,350);
 }
