@@ -15,8 +15,8 @@ function draw() {
   //femininity prompt text
   textFont(carBOLD);
   fill(255,36,0);
-  textSize(100);
-  text('Interact to reveal the femininity for today.',80,250);
+  textSize(50);
+  text('Interact to reveal the femininity for today.',60,100);
 
 
 }
