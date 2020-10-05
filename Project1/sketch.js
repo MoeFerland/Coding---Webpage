@@ -31,7 +31,7 @@ function draw() {
 
   //rounded line button that looks like a mike & ike
   strokeCap(ROUND);
-  strokeWeight(30);
+  strokeWeight(35);
   stroke(255,36,0);
-  line(82,500,110,500);
+  line(80,500,110,500);
 }
