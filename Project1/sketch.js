@@ -17,7 +17,7 @@ function draw() {
   noStroke();
   fill(255,36,0);
   textSize(50);
-  text('Interact to reveal the femininity for today.',60,100,600,500);
+  text('Interact to reveal the femininity for today.',60,80,600,500);
 
   //triangle button
   fill(255,36,0);
