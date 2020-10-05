@@ -7,7 +7,7 @@ let carBOLD;
 function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
-background(0,0,255);
+background(3,37,126);
 
 }
 
@@ -18,5 +18,18 @@ function draw() {
   textSize(50);
   text('Interact to reveal the femininity for today.',60,100,600,500);
 
+  //triangle button
+  fill(255,36,0);
+  noStroke();
+  triangle(60,300,85,250,110,300);
 
+  //circle button
+  noStroke();
+  fill(255,36,0);
+  circle(60,400,50);
+
+  //rounded line button that looks like a mike & ike
+  noStroke();
+  fill(255,36,0);
+  line(60,500,85,500);
 }
