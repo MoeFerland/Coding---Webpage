@@ -33,5 +33,5 @@ function draw() {
   strokeCap(ROUND);
   strokeWeight(35);
   stroke(255,36,0);
-  line(80,500,110,500);
+  line(80,500,105,500);
 }
