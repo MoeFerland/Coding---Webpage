@@ -1,8 +1,13 @@
+//loading font for prompts
+let carBOLD;
+  function preload() {
+    carBOLD = loadFont('carbonBOLD.otf');
+  }
 
 function setup() {
   // put setup code here
-createCanvas(200,200);
-background(200,10,120);
+createCanvas(windowWidth,windowHeight);
+background(0,0,255);
 
 }
 
