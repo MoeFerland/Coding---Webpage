@@ -12,9 +12,11 @@ background(0,0,255);
 }
 
 function draw() {
-  //Put draw code here
-  fill(30,40,200);
-  circle(100,100,70);
+  //femininity prompt text
+  textFont(carBOLD);
+  fill(255,36,0);
+  textSize(100);
+  text('Interact to reveal the femininity for today.',80,250);
 
 
 }
