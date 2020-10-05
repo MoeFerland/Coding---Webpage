@@ -14,6 +14,7 @@ background(3,37,126);
 function draw() {
   //femininity prompt text
   textFont(carBOLD);
+  noStroke();
   fill(255,36,0);
   textSize(50);
   text('Interact to reveal the femininity for today.',60,100,600,500);
@@ -32,5 +33,5 @@ function draw() {
   strokeCap(ROUND);
   strokeWeight(20);
   stroke(255,36,0);
-  line(60,500,85,500);
+  line(85,500,110,500);
 }
