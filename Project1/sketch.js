@@ -26,10 +26,11 @@ function draw() {
   //circle button
   noStroke();
   fill(255,36,0);
-  circle(60,400,50);
+  circle(85,400,50);
 
   //rounded line button that looks like a mike & ike
-  noStroke();
+  strokeCap(ROUND);
+  stroke(20);
   fill(255,36,0);
   line(60,500,85,500);
 }
