@@ -8,8 +8,6 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 background(3,37,126);
-
-resetSKETCH();
 }
 
 function draw() {
