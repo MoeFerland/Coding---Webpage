@@ -19,15 +19,9 @@ function draw() {
   text('Interact to reveal the femininity for today.',60,80,600,500);
 
   //triangle button
-  let triX1 = 60;
-  let triY1 = 300;
-  let triX2 = 85;
-  let triY2 = 250;
-  let triX3 = 110;
-  let triY3 = 300;
   fill(255,36,0);
   noStroke();
-  triangle(triX1,triY1,triX2,triY2,triX3,triY3);
+  triangle(60,300,85,250,110,300);
 
   //circle button
   let cirX = 85;
@@ -60,6 +54,24 @@ function draw() {
       noStroke();
       fill(rCol,gCol,bCol);
       circle(cirX,cirY,diam);
+  }
+
+  //triangle interaction
+  if (mouseIsPressed & dist(mouseX,mouseY,85,275) < 25){
+      let triX1 = random(250,750);
+      let triY1 = random(250,750);
+      let triX2 = random(250,750);
+      let triY2 = random(250,750);
+      let triX3 = random(250,750);
+      let triY3 = random(250,750);
+
+      let rCol = random(0,255);
+      let gCol = random(0,255);
+      let bCol = random(0,255);
+
+      noStroke();
+      fill(rCol,gCol,bCol);
+      triangle(triX1,triY1,triX2,triY2,triX3,triY3);
   }
 
 }
