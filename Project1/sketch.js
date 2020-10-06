@@ -55,8 +55,9 @@ function draw() {
 
       let cirX = random(250,750);
       let cirY = random(250,750);
-      let diam = random(5,100);
+      let diam = random(5,300);
 
+      noStroke();
       fill(rCol,gCol,bCol);
       circle(cirX,cirY,diam);
   }
