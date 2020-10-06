@@ -88,12 +88,13 @@ function draw() {
     strokeCap(random(ROUND,SQUARE));
     strokeWeight(random(3,100));
     line(linX1,linY1,linX2,linY2);
-}
-if (keyPressed & keyCode = DELETE){
-  noStroke();
-  fill(3,37,126);
-  rect(0,0,width,height);
+   }
+
 }
 
+function keyPressed(){
+  if (keyCode == DELETE){
+    fill(3,37,126);
+    rect(0,0,width,height);
   }
 }
