@@ -8,34 +8,37 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 background(3,37,126);
+resetSKETCH();
+
+//femininity prompt text
+textFont(carBOLD);
+noStroke();
+fill(255,36,0);
+textSize(50);
+text('Interact to reveal the femininity for today.',60,80,600,500);
+
+//triangle button
+fill(255,36,0);
+noStroke();
+triangle(60,300,85,250,110,300);
+
+//circle button
+let cirX = 85;
+let cirY = 400;
+let cirD = 50;
+noStroke();
+fill(255,36,0);
+circle(85,400,50);
+
+//rectangle/line button
+strokeWeight(35);
+strokeCap(ROUND);
+stroke(255,36,0);
+line(80,510,100,510);
 }
 
 function draw() {
-  //femininity prompt text
-  textFont(carBOLD);
-  noStroke();
-  fill(255,36,0);
-  textSize(50);
-  text('Interact to reveal the femininity for today.',60,80,600,500);
 
-  //triangle button
-  fill(255,36,0);
-  noStroke();
-  triangle(60,300,85,250,110,300);
-
-  //circle button
-  let cirX = 85;
-  let cirY = 400;
-  let cirD = 50;
-  noStroke();
-  fill(255,36,0);
-  circle(85,400,50);
-
-  //rectangle/line button
-  strokeWeight(35);
-  strokeCap(ROUND);
-  stroke(255,36,0);
-  line(80,510,100,510);
 
   //circle interaction
   if (mouseIsPressed & dist(mouseX, mouseY, 85, 400) < 25){
@@ -88,9 +91,11 @@ function draw() {
     line(linX1,linY1,linX2,linY2);
 
   }
-}
-function keyPressed(){
-  if (keyCode === DELETE){
-    redraw(1);
+
+  function keyPressed(){
+    if (keyCode === DELETE){
+      resetSKETCH();
+
+    }
   }
 }
