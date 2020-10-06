@@ -8,21 +8,6 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 background(3,37,126);
-
-//circle interaction
-if (mouseIsPressed & dist(mouseX, mouseY, 85, 400) < 25){
-    let rCol = random(0,255);
-    let gCol = random(0,255);
-    let bCol = random(0,255);
-
-    let cirX = random(250,750);
-    let cirY = random(250,750);
-    let diam = random(5,300);
-
-    noStroke();
-    fill(rCol,gCol,bCol);
-    circle(cirX,cirY,diam);
-}
 }
 
 function draw() {
@@ -61,5 +46,20 @@ function draw() {
   strokeWeight(35);
   stroke(255,36,0);
   line(80,510,105,510);
+
+  //circle interaction
+  if (mouseIsPressed & dist(mouseX, mouseY, 85, 400) < 25){
+      let rCol = random(0,255);
+      let gCol = random(0,255);
+      let bCol = random(0,255);
+
+      let cirX = random(250,750);
+      let cirY = random(250,750);
+      let diam = random(5,300);
+
+      noStroke();
+      fill(rCol,gCol,bCol);
+      circle(cirX,cirY,diam);
+  }
 
 }
