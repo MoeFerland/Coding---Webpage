@@ -11,8 +11,6 @@ background(3,37,126);
 }
 
 function draw() {
-  createCanvas(windowWidth,windowHeight);
-  background(3,37,126);
 
   textFont(carBOLD);
   noStroke();
@@ -89,5 +87,10 @@ function draw() {
     strokeWeight(random(3,100));
     line(linX1,linY1,linX2,linY2);
    }
+function keyPressed(){
+  if (keyCode == DELETE){
+    background(rCol,gCol,bCol)
 
+}
+}
 }
