@@ -25,9 +25,9 @@ function draw() {
   noStroke();
   fill(255,36,0);
   textSize(25);
-  text('start over',80,610,100,100);
+  text('start over',70,590,100,100);
 
-  
+
   //triangle button
   fill(255,36,0);
   noStroke();
