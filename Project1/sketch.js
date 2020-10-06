@@ -31,8 +31,7 @@ function draw() {
   fill(255,36,0);
   circle(85,400,50);
 
-  //rounded line button that looks like a mike & ike
-  strokeCap(ROUND);
+  //rectangle/line button
   strokeWeight(35);
   stroke(255,36,0);
   line(80,510,105,510);
@@ -70,7 +69,7 @@ function draw() {
       triangle(triX1,triY1,triX2,triY2,triX3,triY3);
   }
 
-  //line or oval thing interaction
+  //rect/line interaction
   if (mouseIsPressed & dist(mouseX,mouseY,92,510) < 20){
     let linX1 = random(250,width);
     let linY1 = random(250,height);
