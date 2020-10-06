@@ -9,22 +9,25 @@ function setup() {
 createCanvas(windowWidth,windowHeight);
 background(3,37,126);
 
-function keyPressed(){
-  if (keyCode == DELETE){
-    background(rCol,gCol,bCol)
 
-}
-}
 }
 
 function draw() {
-
+  //prompt text
   textFont(carBOLD);
   noStroke();
   fill(255,36,0);
   textSize(50);
   text('Interact to reveal the femininity for today.',60,80,600,500);
 
+//un do button
+  textFont(carBOLD);
+  noStroke();
+  fill(255,36,0);
+  textSize(25);
+  text('start over',80,610,100,100);
+
+  
   //triangle button
   fill(255,36,0);
   noStroke();
