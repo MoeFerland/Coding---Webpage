@@ -36,6 +36,7 @@ line(80,510,100,510);
 }
 
 function draw() {
+
   //circle interaction
   if (mouseIsPressed & dist(mouseX, mouseY, 85, 400) < 25){
       let rCol = random(0,255);
@@ -86,5 +87,10 @@ function draw() {
     strokeWeight(random(3,100));
     line(linX1,linY1,linX2,linY2);
 
+function keyPressed(){
+  if (keyCode === DELETE){
+    setup();
+  }
+}
   }
 }
