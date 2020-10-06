@@ -39,6 +39,8 @@ function draw() {
 
   //circle interaction
   if (mouseIsPressed & dist(mouseX, mouseY, 85, 400) < 25){
+    for (let cirNumber = 0; cirNumber < 1; cirNumber = cirNumber + 1){
+
       let rCol = random(0,255);
       let gCol = random(0,255);
       let bCol = random(0,255);
@@ -51,6 +53,7 @@ function draw() {
       fill(rCol,gCol,bCol);
       circle(cirX,cirY,diam);
   }
+}
 
   //triangle interaction
   if (mouseIsPressed & dist(mouseX,mouseY,85,275) < 25){
