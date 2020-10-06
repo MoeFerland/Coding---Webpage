@@ -94,7 +94,6 @@ function draw() {
 
 function keyPressed(){
   if (keyCode == DELETE){
-    fill(3,37,126);
-    rect(0,0,width,height);
+    background(rCol,gCol,bCol);
   }
 }
