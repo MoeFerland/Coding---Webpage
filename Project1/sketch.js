@@ -93,6 +93,6 @@ function draw() {
 }
 function keyPressed(){
   if (keyCode === DELETE){
-    resetSKETCH();
+    redraw(1);
   }
 }
