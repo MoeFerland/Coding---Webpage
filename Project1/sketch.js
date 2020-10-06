@@ -90,10 +90,10 @@ function draw() {
     line(linX1,linY1,linX2,linY2);
    }
 
-}
 
-function keyPressed(){
-  if (keyCode == DELETE){
-    background(rCol,gCol,bCol);
-  }
+   function keyPressed(){
+     if (keyCode == DELETE){
+       background(rCol,gCol,bCol);
+}
+}
 }
