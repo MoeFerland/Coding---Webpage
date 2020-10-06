@@ -76,6 +76,15 @@ function draw() {
     let linY1 = random(250,height);
     let linX2 = random(250,width);
     let linY2 = random(250,height);
+
+    let rCol = random(0,255);
+    let gCol = random(0,255);
+    let bCol = random(0,255);
+
+    stroke(rCol,gCol,bCol);
+    strokeWeight(random(3,100));
+    line(linX1,linY1,linX2,linY2);
+
   }
 
 }
