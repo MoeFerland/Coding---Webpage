@@ -33,6 +33,7 @@ function draw() {
 
   //rectangle/line button
   strokeWeight(35);
+  strokeCap(SQUARE);
   stroke(255,36,0);
   line(80,510,105,510);
 
@@ -81,6 +82,7 @@ function draw() {
     let bCol = random(0,255);
 
     stroke(rCol,gCol,bCol);
+    strokeCap(SQUARE);
     strokeWeight(random(3,100));
     line(linX1,linY1,linX2,linY2);
 
