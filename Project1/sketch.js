@@ -13,6 +13,7 @@ background(3,37,126);
 }
 
 function draw() {
+
   //prompt text
   textFont(carBOLD);
   noStroke();
@@ -20,7 +21,7 @@ function draw() {
   textSize(50);
   text('Interact to reveal the femininity for today.',60,80,600,500);
 
-//un do button
+//start over button
   textFont(carBOLD);
   noStroke();
   fill(255,36,0);
@@ -97,4 +98,11 @@ function draw() {
     strokeWeight(random(3,100));
     line(linX1,linY1,linX2,linY2);
    }
+
+   //start over button interaction
+  if (mouseIsPressed & dist(mouseX,mouseY, 87, 620) < 30){
+    noStroke();
+    fill(3,37,126);
+    rect(0,0,width,height);
+  }
 }
