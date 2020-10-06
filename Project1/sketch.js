@@ -8,6 +8,8 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 background(3,37,126);
+
+resetSKETCH();
 }
 
 function draw() {
@@ -35,7 +37,7 @@ function draw() {
   strokeWeight(35);
   strokeCap(ROUND);
   stroke(255,36,0);
-  line(80,510,105,510);
+  line(80,510,100,510);
 
   //circle interaction
   if (mouseIsPressed & dist(mouseX, mouseY, 85, 400) < 25){
@@ -88,5 +90,9 @@ function draw() {
     line(linX1,linY1,linX2,linY2);
 
   }
-
+}
+function keyPressed(){
+  if (keyCode === DELETE){
+    resetSKETCH();
+  }
 }
