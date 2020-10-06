@@ -32,10 +32,6 @@ function draw() {
   circle(85,400,50);
 
   //rounded line button that looks like a mike & ike
-  let linX1 = 80;
-  let linY1 = 510;
-  let linX2 = 105;
-  let linY2 = 510;
   strokeCap(ROUND);
   strokeWeight(35);
   stroke(255,36,0);
@@ -47,8 +43,8 @@ function draw() {
       let gCol = random(0,255);
       let bCol = random(0,255);
 
-      let cirX = random(250,750);
-      let cirY = random(250,750);
+      let cirX = random(250,width);
+      let cirY = random(250,height);
       let diam = random(5,300);
 
       noStroke();
@@ -58,12 +54,12 @@ function draw() {
 
   //triangle interaction
   if (mouseIsPressed & dist(mouseX,mouseY,85,275) < 25){
-      let triX1 = random(250,750);
-      let triY1 = random(250,750);
-      let triX2 = random(250,750);
-      let triY2 = random(250,750);
-      let triX3 = random(250,750);
-      let triY3 = random(250,750);
+      let triX1 = random(250,width);
+      let triY1 = random(250,height);
+      let triX2 = random(250,width);
+      let triY2 = random(250,height);
+      let triX3 = random(250,width);
+      let triY3 = random(250,height);
 
       let rCol = random(0,255);
       let gCol = random(0,255);
@@ -72,6 +68,14 @@ function draw() {
       noStroke();
       fill(rCol,gCol,bCol);
       triangle(triX1,triY1,triX2,triY2,triX3,triY3);
+  }
+
+  //line or oval thing interaction
+  if (mouseIsPressed & dist(mouseX,mouseY,92,510) < 20){
+    let linX1 = random(250,width);
+    let linY1 = random(250,height);
+    let linX2 = random(250,width);
+    let linY2 = random(250,height);
   }
 
 }
