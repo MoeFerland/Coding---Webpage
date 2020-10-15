@@ -1,15 +1,28 @@
+let yummybackground;
+
+var gif_loadImg, gif_createImg;
+
+function preload(){
+  gif_loadImg = loadImage('https://i.imgur.com/nlWiFq8.gif');
+  gif_createImg = createImg('https://i.imgur.com/nlWiFq8.gif');
+}
+
+function preload(){
+  yummybackground = loadImage('https://i.imgur.com/fvTFr2O.png');
+}
 
 function setup() {
-  // put setup code here
-createCanvas(200,200);
-background(200,10,120);
-
+  createCanvas(windowWidth, windowHeight);
+  
 }
 
 function draw() {
-  //Put draw code here
-  fill(30,40,200);
-  circle(100,100,70);
 
+ image(yummybackground,0,0, width, height);
+
+ imageMode(CENTER);
+ image(gif_loadImg, width/2, height/2);
+
+ gif_createImg.position(width/2, height/2);
 
 }
