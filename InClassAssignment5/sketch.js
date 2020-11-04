@@ -1,28 +1,27 @@
 let yummybackground;
+let gif;
 
-var gif_loadImg, gif_createImg;
-
-function preload(){
-  gif_loadImg = loadImage('https://i.imgur.com/nlWiFq8.gif');
-  gif_createImg = createImg('https://i.imgur.com/nlWiFq8.gif');
-}
 
 function preload(){
-  yummybackground = loadImage('https://i.imgur.com/fvTFr2O.png');
+   //background image
+   yummybackground = loadImage('https://i.imgur.com/fvTFr2O.png');
+
+   //loading gif
+   gif = loadImage('https://i.imgur.com/nlWiFq8.gif');
+
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  
 }
 
 function draw() {
 
- image(yummybackground,0,0, width, height);
+ imageMode(CORNER);
+ background(yummybackground);
 
- imageMode(CENTER);
- image(gif_loadImg, width/2, height/2);
-
- gif_createImg.position(width/2, height/2);
+       //gif
+ imageMode(CENTER)
+ image(gif, width/2, height/2, 600, 600);
 
 }
