@@ -7,7 +7,7 @@ function preload(){
   //loading roots
   roots = loadImage('https://imgur.com/hu9yVeY');
 
-  //loading upclose image 
+  //loading upclose image
   upclose = loadImage('https://imgur.com/kwJvNWF');
 
   //loading vertical string of flowers
@@ -21,11 +21,5 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth, windowHeight);
 background(0,0,0);
-
-}
-
-function draw() {
-
-
 
 }
