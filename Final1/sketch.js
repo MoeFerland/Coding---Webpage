@@ -1,8 +1,8 @@
 
 let xpos = 1;
 let ypos = 1;
-let textspeedY = 15;
-let textspeedY2 = 15;
+let textspeedY = 9;
+let textspeedY2 = 9;
 let womxntext;
 let ladybody;
 let womxnBLK;
@@ -28,7 +28,7 @@ background(0,0,0);
 
 function draw(){
 
-  tint(255,128);
+
   womxntext.resize(503,115);
   image(womxntext,xpos,ypos);
 
