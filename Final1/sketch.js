@@ -45,11 +45,11 @@ image(womxnBLK,)
 yloc = yloc + textspeedY;
 
 if (yloc > height - 115){
-  textspeedY = - textspeedY;
+  textspeedY = -textspeedY;
 }
 
 if (yloc < 0){
-  textspeedY = - textspeedY;
+  textspeedY =  -textspeedY;
 }
 
 }
