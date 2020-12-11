@@ -18,7 +18,7 @@ background(0,0,0);
 
 
 //womxn text iamge
-blendMode(BURN);
+blendMode(SCREEN);
 tint(255,128);
 womxntext.resize(width,height);
 image(womxntext,0,0);
