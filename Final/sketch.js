@@ -6,7 +6,7 @@ let narlyFONT;
 
 let womxntext;
   function preload(){
-   womxntext = loadImage('https://github.com/MoeFerland/Coding---Webpage/blob/69941579feb91ac0748240e0a4b6477b341b464c/Final/WOMXN-codingfinal.png');
+   womxntext = loadImage('WOMXN-codingfinal.png');
 }
 
 
