@@ -1,26 +1,42 @@
-//loading font into sketch
-let narlyFONT;
-  function preload() {
-    narlyFONT = loadFont('NarlyOT_Outline_coding.otf');
-}
 
+let xpos = 1;
+let ypos = 1;
+let textspeedY = 3;
 let womxntext;
-  function preload(){
-   womxntext = loadImage('WOMXN-codingfinal.png');
-}
+let ladybody2;
+let womxnBLK;
 
+
+  function preload(){
+    //'womxn'text
+   womxntext = loadImage('WOMXN-codingfinalBLUE.png');
+   //lady body 2
+   ladybody2 = loadImage('Ladybody2.png');
+    //'womxn' text black
+   womxnBLK = loadImage('WOMXN-codingfinalBLACK.png');
+}
 
 
 function setup() {
-  // put setup code here
-createCanvas(1000, 2500);
+
+createCanvas(515,800);
 background(0,0,0);
 
 
-//womxn text iamge
-blendMode(SCREEN);
-tint(255,128);
-womxntext.resize(width,height);
-image(womxntext,0,0);
+
+}
+
+function draw(){
+  //womxn text image
+  womxntext.resize(500,115);
+  image(womxntext,xpos,ypos);
+
+  ypos = ypos + textspeedY;
+
+image(womxnBLK,0,170, 500, 115);
+
+//ladybody image
+image(ladybody2,0, 0, width, height);
+
 
 }
