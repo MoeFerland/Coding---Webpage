@@ -23,18 +23,16 @@ function setup() {
 createCanvas(515,800);
 background(0,0,0);
 
-
-//'womxn' pink waterfall
-tint(255,128);
-womxntext.resize(503,115);
-image(womxntext,xpos,ypos);
-
-ypos = ypos + textspeedY;
-
-
 }
 
 function draw(){
+
+  tint(255,128);
+  womxntext.resize(503,115);
+  image(womxntext,xpos,ypos);
+
+  ypos = ypos + textspeedY;
+
   //womxn text image black
 
 image(womxnBLK,xloc,yloc);
