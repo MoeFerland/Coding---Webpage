@@ -2,7 +2,7 @@
 let xpos = 1;
 let ypos = 1;
 let textspeedY = 9;
-let textspeedY2 = 6;
+let textspeedY2 = 9;
 let womxntext;
 let ladybody;
 let womxnBLK;
