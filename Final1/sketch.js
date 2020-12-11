@@ -5,6 +5,7 @@ let textspeedY = 9;
 let textspeedY2 = 9;
 let womxntext;
 let ladybody;
+let ladyoverlay;
 let womxnBLK;
 let xloc = 1;
 let yloc = 1;
@@ -58,4 +59,7 @@ if (yloc < 0){
 
 //ladybody image
 image(ladybody,0, 0, width, height);
+
+//lady body ladyoverlay
+image(ladyoverlay,0,0,width,height);
 }
