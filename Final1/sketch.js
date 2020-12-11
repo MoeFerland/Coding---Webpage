@@ -13,7 +13,7 @@ let womxntext;
 
 function setup() {
   // put setup code here
-createCanvas(520,800);
+createCanvas(550,800);
 background(0,0,0);
 
 
