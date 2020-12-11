@@ -1,11 +1,15 @@
 
-//"womxn" text
+let xpos = 0;
+let ypos = 0;
+let textspeedY = 3
 let womxntext;
+let ladybody;
+
+//"womxn" text
   function preload(){
    womxntext = loadImage('WOMXN-codingfinal.png');
 }
 //ladybody 1
-let ladybody;
   function preload(){
     ladybody = loadImage('Ladybody1.png');
   }
