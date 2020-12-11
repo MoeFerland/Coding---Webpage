@@ -1,8 +1,8 @@
 
 let xpos = 1;
 let ypos = 1;
-let textspeedY = 4;
-let textspeedY2 = 2;
+let textspeedY = 9;
+let textspeedY2 = 6;
 let womxntext;
 let ladybody;
 let womxnBLK;
@@ -33,6 +33,14 @@ function draw(){
   image(womxntext,xpos,ypos);
 
   ypos = ypos + textspeedY;
+
+  if (ypos > height){
+    textspeedY = -textspeedY;
+  }
+
+  if (ypos < 0){
+    textspeedY =  -textspeedY;
+  }
 
   //womxn text image black
 womxnBLK.resize(503,115);
