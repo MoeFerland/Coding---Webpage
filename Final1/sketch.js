@@ -28,10 +28,9 @@ background(0,0,0);
 
 function draw(){
   //womxn text image
-  womxn.resize(500,115);
+  womxntext.resize(500,115);
   image(womxntext,xpos,ypos);
 
-  ypos = ypos + textspeedY;
 
 //ladybody image
 image(ladybody,0, 0, width, height);
