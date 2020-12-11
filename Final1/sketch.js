@@ -1,6 +1,6 @@
 
-let xpos = 0;
-let ypos = 0;
+let xpos = 1;
+let ypos = 1;
 let textspeedY = 3;
 let womxntext;
 let ladybody;
@@ -29,7 +29,6 @@ function draw(){
   womxntext.resize(503,115);
   image(womxntext,xpos,ypos);
 
-  xpos = xpos;
   ypos = ypos + textspeedY;
 
 
