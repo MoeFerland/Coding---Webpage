@@ -52,3 +52,4 @@ image(womxnBLK,xloc,500);
 
 //ladybody image
 image(ladybody,0, 0, width, height);
+}
