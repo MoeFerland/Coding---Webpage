@@ -5,8 +5,7 @@ let textspeedY = 3;
 let womxntext;
 let ladybody;
 let womxnBLK;
-let xloc;
-let yloc;
+
 
   function preload(){
     //'womxn'text
@@ -38,18 +37,5 @@ function draw(){
 //ladybody image
 image(ladybody,0, 0, width, height);
 
-//'womxn' black text
-womxnBLK.resize(503,115);
-image(womxnBLK,)
-
-yloc = yloc = textspeedY;
-
-if (yloc > height - 115){
-  textspeedY = - textspeedY;
-}
-
-if (yloc < 0){
-  textspeedY = - textspeedY;
-}
 
 }
