@@ -1,22 +1,30 @@
-//loading font into sketch
-let narlyFONT;
-  function preload() {
-    narlyFONT = loadFont('NarlyOT_Outline_coding.otf');
-}
+
 //"womxn" text
 let womxntext;
   function preload(){
    womxntext = loadImage('WOMXN-codingfinal.png');
 }
+//ladybody 1
+let ladybody;
+  function preload(){
+    ladybody = loadImage('Ladybody1.png');
+  }
+
+
 let xpos = 0;
 let ypos = 0;
 let textspeedY = 3
 
 
 function setup() {
-  // put setup code here
+
 createCanvas(515,800);
 background(0,0,0);
+
+//insert ladybody image
+ladybody.resize(width,height);
+image(ladybody,0,0);
+
 }
 
 
