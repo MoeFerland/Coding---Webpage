@@ -33,9 +33,7 @@ function draw(){
 
   ypos = ypos + textspeedY;
 
-imageMODE(CENTER)
-womxnBLK.resize(width/2, height/2);
-image(womxnBLK,width/2,height/2);
+image(womxnBLK,0,0, width, height);
 
 //ladybody image
 image(ladybody,0, 0, width, height);
