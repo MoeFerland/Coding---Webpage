@@ -1,6 +1,6 @@
 
 let xpos = 0;
-let ypos = 0;
+let ypos = 1;
 let textspeedY = 3;
 let womxntext;
 let ladybody;
