@@ -1,6 +1,6 @@
 
 let xpos = 0;
-let ypos = 1;
+let ypos = 0;
 let textspeedY = 3;
 let womxntext;
 let ladybody;
@@ -32,11 +32,5 @@ function draw(){
   xpos = xpos;
   ypos = ypos + textspeedY;
 
-  if (ypos > height){
-    textspeedY = - textspeedY;
-  }
 
-  if (ypos = 0){
-    textspeedY = - textspeedY;
-  }
 }
