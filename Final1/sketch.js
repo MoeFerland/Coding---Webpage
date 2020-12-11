@@ -42,13 +42,13 @@ image(ladybody,0, 0, width, height);
 womxnBLK.resize(503,115);
 image(womxnBLK,)
 
-yloc = yloc = textspeedY;
+yloc = yloc + textspeedY;
 
 if (yloc > height - 115){
   textspeedY = - textspeedY;
 }
 
-if (yloc = 0){
+if (yloc < 0){
   textspeedY = - textspeedY;
 }
 
