@@ -26,11 +26,9 @@ createCanvas(515,800);
 background(0,0,0);
 
 //insert ladybody image
-ladybody.resize(width,height);
-image(ladybody,0,0);
+image(ladybody,0,0,width,height);
 
 }
-
 
 function draw(){
   //womxn text image
