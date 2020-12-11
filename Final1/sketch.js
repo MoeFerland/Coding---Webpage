@@ -31,6 +31,7 @@ function draw(){
   womxntext.resize(500,115);
   image(womxntext,xpos,ypos);
 
+  xpos = xpos + textspeedY;
 
 //ladybody image
 image(ladybody,0, 0, width, height);
