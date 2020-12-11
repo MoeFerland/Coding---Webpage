@@ -15,9 +15,6 @@ function setup() {
 createCanvas(515,800);
 background(0,0,0);
 
-//insert ladybody image
-image(ladybody,0,0,width,height);
-
 }
 
 function draw(){
