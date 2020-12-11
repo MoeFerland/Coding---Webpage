@@ -20,7 +20,7 @@ background(0,0,0);
 //womxn text iamge
 blendMode(SCREEN);
 tint(255,128);
-womxntext.resize(490,115);
+womxntext.resize(495,115);
 image(womxntext,0,0);
 
 }
