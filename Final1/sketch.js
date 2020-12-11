@@ -14,12 +14,6 @@ let ladybody;
     ladybody = loadImage('Ladybody1.png');
   }
 
-
-let xpos = 0;
-let ypos = 0;
-let textspeedY = 3
-
-
 function setup() {
 
 createCanvas(515,800);
