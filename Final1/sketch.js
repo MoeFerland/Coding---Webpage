@@ -33,7 +33,7 @@ function draw(){
 
   ypos = ypos + textspeedY;
 
-image(womxnBLK,0,430, 500, 115);
+image(womxnBLK,0,380, 500, 115);
 
 //ladybody image
 image(ladybody,0, 0, width, height);
