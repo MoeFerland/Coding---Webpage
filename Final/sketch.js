@@ -19,6 +19,7 @@ background(0,0,0);
 }
 
 function draw(){
+  blendMode(BURN);
   womxntext.resize(width,height);
   image(womxntext,0,0);
 }
