@@ -17,15 +17,10 @@ createCanvas(1000, 2500);
 background(0,0,0);
 
 
+//womxn text iamge
+blendMode(SCREEN);
+tint(255,128);
+womxntext.resize(width,height);
+image(womxntext,0,0);
 
-}
-
-function draw(){
-
-push();
-  blendMode(SCREEN);
-  tint(255,128);
-  womxntext.resize(width,height);
-  image(womxntext,0,0);
-pop();
 }
