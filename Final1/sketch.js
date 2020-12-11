@@ -5,7 +5,7 @@ let textspeedY = 9;
 let textspeedY2 = 9;
 let womxntext;
 let ladybody;
-let ladyoverlay;
+
 let womxnBLK;
 let xloc = 1;
 let yloc = 1;
@@ -17,8 +17,7 @@ let yloc = 1;
    ladybody = loadImage('Ladybody1.png');
     //'womxn' text black
    womxnBLK = loadImage('WOMXN-codingfinalBLACK.png');
-    //body overlay
-   ladyoverlay = loadImage('LadybodyOVERLAY.png');
+
 }
 
 
@@ -31,7 +30,7 @@ background(0,0,0);
 
 function draw(){
 
-
+  tint(255,128);
   womxntext.resize(503,115);
   image(womxntext,xpos,ypos);
 
@@ -47,21 +46,9 @@ function draw(){
 
   //womxn text image black
 womxnBLK.resize(503,115);
-image(womxnBLK,xloc,yloc);
+image(womxnBLK,xloc,500);
 
-yloc = yloc + textspeedY2;
 
-if (yloc > height){
-  textspeedY = -textspeedY2;
-}
-
-if (yloc < 0){
-  textspeedY =  -textspeedY2;
-}
 
 //ladybody image
 image(ladybody,0, 0, width, height);
-
-//lady body ladyoverlay
-image(ladyoverlay,0,0,width,height);
-}
