@@ -30,7 +30,7 @@ background(0,0,0);
 
 function draw(){
 
-  tint(255,128);
+  
   womxntext.resize(503,115);
   image(womxntext,xpos,ypos);
 
