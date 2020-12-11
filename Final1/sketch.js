@@ -28,8 +28,7 @@ background(0,0,0);
 
 function draw(){
   //womxn text image
-  tint(255,128);
-  womxntext.resize(503,115);
+  womxn.resize(500,115);
   image(womxntext,xpos,ypos);
 
   ypos = ypos + textspeedY;
