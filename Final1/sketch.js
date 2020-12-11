@@ -1,10 +1,12 @@
 
 let xpos = 1;
 let ypos = 1;
-let textspeedY = 6;
+let textspeedY = 1;
 let womxntext;
 let ladybody;
 let womxnBLK;
+let xloc = 1;
+let yloc = 1;
 
   function preload(){
     //'womxn'text
@@ -22,22 +24,26 @@ createCanvas(515,800);
 background(0,0,0);
 
 
+//'womxn' pink waterfall
+tint(255,128);
+womxntext.resize(503,115);
+image(womxntext,xpos,ypos);
+
+ypos = ypos + textspeedY;
+
 
 }
 
 function draw(){
-  //womxn text image
-  tint(255,128);
-  womxntext.resize(503,115);
-  image(womxntext,xpos,ypos);
+  //womxn text image black
 
-  ypos = ypos + textspeedY;
+image(womxnBLK,xloc,yloc);
 
-if (ypos > height){
+if (yloc > height){
   textspeedY = -textspeedY;
 }
 
-if (ypos < 0){
+if (yloc < 0){
   textspeedY =  -textspeedY;
 }
 
