@@ -20,6 +20,7 @@ background(0,0,0);
 
 function draw(){
   blendMode(SCREEN);
+  tint(255,128);
   womxntext.resize(width,height);
   image(womxntext,0,0);
 }
