@@ -32,11 +32,11 @@ function draw(){
   xpos = xpos;
   ypos = ypos + textspeedY;
 
-  if (ypos > height - 115){
+  if (ypos > height){
     textspeedY = - textspeedY;
   }
 
-  if (ypos < 115){
+  if (ypos = 0){
     textspeedY = - textspeedY;
   }
 }
