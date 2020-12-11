@@ -17,6 +17,8 @@ let yloc = 1;
    ladybody = loadImage('Ladybody1.png');
     //'womxn' text black
    womxnBLK = loadImage('WOMXN-codingfinalBLACK.png');
+    //body overlay
+   ladyoverlay = loadImage('LadybodyOVERLAY.png');
 }
 
 
