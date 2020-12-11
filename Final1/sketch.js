@@ -19,7 +19,7 @@ function setup() {
 createCanvas(515,800);
 background(0,0,0);
 
-image(ladybody,0, 0, width, height);
+
 
 }
 
@@ -32,4 +32,8 @@ function draw(){
   ypos = ypos + textspeedY;
 
 
+
+
+//ladybody image
+image(ladybody,0, 0, width, height);
 }
