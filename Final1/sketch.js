@@ -38,7 +38,7 @@ function draw(){
     textspeedY = -textspeedY;
   }
 
-  if (ypos < 0){
+  if (ypos = 0){
     textspeedY =  -textspeedY;
   }
 
@@ -52,7 +52,7 @@ if (yloc > height){
   textspeedY = -textspeedY2;
 }
 
-if (yloc < 0){
+if (yloc = 0){
   textspeedY =  -textspeedY2;
 }
 
