@@ -24,7 +24,7 @@ function draw(){
   //womxn text image
   tint(255,128);
   womxntext.resize(503,115);
-  image(womxntext,0,0);
+  image(womxntext,xpos,ypos);
 
   xpos = xpos;
   ypos = ypos + textspeedY;
