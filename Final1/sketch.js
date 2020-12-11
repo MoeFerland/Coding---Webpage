@@ -36,7 +36,7 @@ function draw(){
 image(womxnBLK,0,0, width, height);
 
 //ladybody image
-image(ladybody,0, 0, width, height);
+image(ladybody,0, 500, 500, 125);
 
 
 }
